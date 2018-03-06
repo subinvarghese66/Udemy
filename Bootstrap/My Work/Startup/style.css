@@ -1,0 +1,48 @@
+body{
+	background: url(./images/laptop.jpg) no-repeat center center fixed; 
+	font-family: 'Montserrat', sans-serif;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	max-width: 100%;
+	height: auto;
+} 
+.container{
+	margin-top: 10%;
+	margin-left: 25%;
+	margin-right: 20%;
+	width: 50%;
+	height: auto;
+}
+.container > .row > h1{
+	height: auto;
+	width: auto;
+	color: white;
+	display: inline;
+	justify-content: center;text-align: center;
+}
+.btn-container{
+	margin-top: 200px;
+	max-width: 100%;
+	height: auto;
+}
+.btn-container > .btn-row{
+	width: 100%;
+	height: 40px;
+}
+#mc-embedded-subscribe{
+	border-radius: 25px;
+	background-color: rgba(255,0,0,0.7);
+	font-family: 'Montserrat', sans-serif;
+}
+#mc-embedded-subscribe:hover{
+	border-radius: 25px;
+	background-color: rgba(255,0,0,1);
+	font-family: 'Montserrat', sans-serif;
+	-ms-transform: scale(1.05,1.05); /* IE 9 */
+    -webkit-transform: scale(1.05,1.05); /* Safari */
+    transform: scale(1.05,1.05); /* Standard syntax */
+    cursor: pointer;
+    box-sizing: border-box;
+}

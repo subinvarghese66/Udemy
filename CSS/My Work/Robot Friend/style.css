@@ -1,0 +1,103 @@
+.robot {
+	margin-left: 500px;
+}
+.h1{
+	margin-left: 525px;
+}
+.img-half-circle {
+    width: 150px;
+    height: 100px;
+    margin-left: 50px;
+    background-color: blue;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.img-half-circle:hover {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    margin-left: 25px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;  
+    transition: 1s ease-in-out;  
+    -ms-transform: scaleX(1.15); /* IE 9 */
+    -webkit-transform: scaleX(1.15); /* Safari */
+    transform: scaleX(1.15); /* Standard syntax */
+    box-sizing: border-box;
+}
+.img-dot {
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 70px;
+  position: relative;
+}
+.img-body {
+	height: 160px;
+	width: 150px;
+	margin-top: 10px;
+    background-color: blue;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    float: left;
+}
+.img-left-hand{
+	height: 90px;
+	width: 30px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+    background-color: blue;
+    border-radius: 15px;
+    float: left;
+}
+.img-right-hand{
+	height: 90px;
+	width: 30px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+    background-color: blue;
+    border-radius: 15px;
+    float: left;
+}
+.img-left-leg{
+	height: 90px;
+	width: 30px;
+	margin-top: 150px;
+	margin-left: 75px;
+    background-color: blue;
+    border-radius: 15px; 
+    position: absolute;
+    float: left;
+}
+.img-right-leg{
+	height: 90px;
+	width: 30px;
+	margin-top: 150px;
+	margin-left: 150px;
+    background-color: blue;
+    border-radius: 15px;
+    position: absolute;
+    float: left;
+}
+.img-left-leg:hover{
+	height: 90px;
+	width: 30px;
+	margin-top: 150px;
+	margin-left: 75px;
+    background-color:blue;
+    border-radius: 15px; 
+    position: absolute;
+    -ms-transform: rotate(15deg); /* IE 9 */
+    -webkit-transform: rotate(15deg); /* Safari */
+    transform: rotate(15deg); /* Standard syntax */
+    transition: 0.1s ease-in-out; 
+    float: left;
+}

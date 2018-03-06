@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+</head>
+<body>
+	<form method="POST">
+		<h2 align="center"><u>Registration Form</u></h2>
+		First Name: <input type="text" name="fname" required><br>
+		Last Name: <input type="text" name="lname" required><br>
+		Gender: <input type="radio" name="gender" value="Male" checked>Male <input type="radio" name="gender" value="Female">Female<br>
+		House Name: <input type="text" name="hname" required><br>
+		Address: <textarea name="address" rows="5" cols="20"></textarea><br>
+		EMail: <input type="email" name="email" required><br>
+		Password: <input type="password" name="password" required min="6"><br>
+		Birth Date: <input type="date" name="bDate"><br>
+		Hobbies:<br><input type="checkbox" name="hobby" value="reading">Reading<br>
+		<input type="checkbox" name="hobby" value="stampc">Stamp Collection<br>
+		<input type="checkbox" name="hobby" value="reading">Singing<br>
+		Languages known: <select name="lKnown" multiple>
+			<option>Malayalam</option>
+			<option>English</option>
+			<option>Hindi</option>
+		</select><br>
+		<input type="submit" name="submit" value="Register"> <input type="submit" name="submit" value="Reset">
+	</form>
+</body>
+</html>
+<!-- 
+_________________________GET__________________________________
+Without multiple option
+file:///C:/Users/subinvarghese99/Documents/Udemy/HTML%205/regForm.html?fname=Subin
+&lname=Varghese
+&gender=Male
+&hname=Vadakkedom
+&address=Chennamkary+P.O%2C%0D%0AAlappuzha%2C%0D%0AKerala%2C%0D%0AIndia.
+&email=subinvarghese99%40rediff.com
+&password=123456
+&bDate=1985-10-18
+&hobby=reading&hobby=stampc
+&lKnown=Malayalam
+&submit=Register 
+____________________
+With multiple option
+file:///C:/Users/subinvarghese99/Documents/Udemy/HTML%205/regForm.html?fname=Subin
+&lname=Varghese
+&gender=Male
+&hname=Vadakkedom
+&address=Chennamkary+P.O
+&email=subinvarghese99%40rediff.com
+&password=123456
+&bDate=1985-10-18
+&hobby=reading&hobby=reading
+&lKnown=Malayalam&lKnown=Hindi&submit=Reset
+________________________________________________________________________
+
+___________________________POST____________________________________
+file:///C:/Users/subinvarghese99/Documents/Udemy/HTML%205/regForm.html
+-->
