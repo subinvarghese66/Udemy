@@ -67,8 +67,7 @@ function isValidAge(age) {
     return age
 }
 
-/*const isValidAge = (age)=> (age=10);*/
-
+/*const isValidAge = age=> age=10;*/
 
 // Symbol
 // Create a symbol: "This is my first Symbol"
