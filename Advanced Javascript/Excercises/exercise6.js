@@ -31,3 +31,4 @@ class Mamal extends Animal{
 	}
 }
 const cow = new Mamal("Suni", "Jersy", "White");
+cow.showData();
