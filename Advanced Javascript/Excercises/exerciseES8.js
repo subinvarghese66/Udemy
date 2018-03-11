@@ -32,9 +32,8 @@ let obj = {
 // to this:
 'my name is Rudolf the raindeer'
 
-const res = Object.entries(obj).map(value=> {
+const result = Object.entries(obj).map(value=> {
 	return value[0]+" "+value[1] 
-});
-const result = res.reduce((acc, str) => {
+}).reduce((acc, str) => {
 	return acc + str+" ";
 }, "");
