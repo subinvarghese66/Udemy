@@ -26,8 +26,8 @@ class Mamal extends Animal{
 		super(name, type, color);
 		this.isMamal=true;
 	}
-	showData() {
-		console.log(`Our Cows name is ${this.name}, type is ${this.type} and color is ${this.color}`);
+	sound() {
+		console.log(`Mooo my name is ${this.name}, type is ${this.type} and color is ${this.color}`);
 	}
 }
 const cow = new Mamal("Suni", "Jersy", "White");
