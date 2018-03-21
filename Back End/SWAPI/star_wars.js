@@ -7,16 +7,15 @@ const urls = [
 ]
 
 function showResult() {
-	console.log("BTN");
 	Promise.all(urls.map(url => {
 	return fetch(url).then(resp => resp.json())}))
-.then(data => {
-	document.getElementById("json_div").innerHTML = JSON.stringify(data[0], undefined, 2);
-	document.getElementById("json_div").innerHTML += JSON.stringify(data[1], undefined, 2);
-	document.getElementById("json_div").innerHTML += JSON.stringify(data[2], undefined, 2);
-})
-.catch(err => console.log('error',err));
-}
+	.then(data => {
+		document.getElementById("json_div").innerHTML = JSON.stringify(data[0], undefined, 2);
+		document.getElementById("json_div").innerHTML += JSON.stringify(data[1], undefined, 2);
+		document.getElementById("json_div").innerHTML += JSON.stringify(data[2], undefined, 2);
+	}).catch(err => console.log('error',err));
+	div.hidden=false;
+	}
 
 show.addEventListener("click", showResult);
 

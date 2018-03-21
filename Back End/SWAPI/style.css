@@ -1,5 +1,5 @@
 body{
-	background-color: blue; 
+	background-color: lightblue; 
 	font-family: 'Montserrat', sans-serif;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -25,10 +25,13 @@ body{
 }
 
 #json_div{
+	max-width: 100%;
+	width: auto;
+	border: blue solid 3px;
 	margin-top: 50px;
 	margin-bottom: 50px;
 	margin-left: 50px;
 	margin-right: 50px;
-	background-color: pink;
+	background-color: white;
 
 }
